@@ -1,0 +1,546 @@
+/* POPPINS FONT FAMILY */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* HEADER SECTION */
+header{
+ background-color: #4d1ef8;
+ height: 645px;
+ position: relative;
+}
+ header nav{
+  height: 70px;
+  text-align: right;
+  padding: 25px 100px 0;
+ }
+ header nav a.nav-item{
+  color: rgb(245, 241, 241);
+  margin-left: 2px;
+  padding: 5px 15px ;
+  border-radius: 3px;
+  font-weight: 500;
+ }
+header nav a.nav-item-active{
+  color: rgb(245, 241, 241);
+  margin-left: 2px;
+  margin-right: 20px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+header nav a.nav-item:hover{
+  color: #4d1ef8;
+  background-color: #ffffff;
+  margin-left: 2px;
+  padding: 5px 15px ;
+  border-radius: 3px;
+  font-weight: 500;
+ }
+header nav a.nav-item-active:hover{
+  color: #4d1ef8;
+  background-color: #ffffff;
+  margin-left: 2px;
+  margin-right: 20px;
+  padding: 5px 15px ;
+  border-radius: 3px;
+  font-weight: 500;
+}
+header nav svg{
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+ header div:nth-child(2){
+  padding-left: 85px;
+  height: 70px;
+ }
+ header div:nth-child(2) img.logo{
+  height: 60px;
+}
+ header div:nth-child(3).header-text{
+  padding-left: 80px;
+  padding-top: 100px;
+}
+header div:nth-child(3).header-text img{
+  height: 7px;
+  width: 60px;
+}
+header div:nth-child(3).header-text h2{
+  height: 150px;
+  font-size: 52px;
+  line-height: 75px;
+  padding-top: 10px;
+  color: #ffffff;
+  font-style: "Poppins";
+  font-weight: 500;
+}
+header div:nth-child(3).header-text p{
+  height: 55px;
+  font-size: 22px;
+  padding-top: 20px;
+  color: aliceblue;
+}
+
+
+header div:nth-child(4){
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+}
+header div:nth-child(4) img.header-image{
+  height: 650px;
+  width: 650px;
+}
+
+
+
+
+
+
+/* PART-2 */
+/* COMPANIES*/
+div.companies{
+  background-color: whitesmoke;
+  height: 130px;
+  padding-top: 37px;
+  padding-left: 80px;
+  
+} 
+div.companies a.company-items{
+  text-decoration: none;
+  color: black;
+  margin-right: 70px;
+  font-size: 30px;
+  font-family: "Righteous";
+}
+
+
+
+
+
+/* PART- 3 */
+/* API's */
+div.api{
+  background-color: whitesmoke;
+}
+
+/* api heading */
+div.api h1.api-heading{
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 52px;
+  font-family: "Poppins","Pacifico";
+  font-weight: 900;
+  text-shadow: black;
+  line-height: 65px;
+}
+
+
+/* cards */
+div.api div.cards{
+  background-color: whitesmoke;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 70px;
+}
+/* card 1 */
+div.api div.cards div:nth-child(1).card-active{
+    background-color: white;
+    height: 300px;
+    width: 280px;
+    margin-left: 60px;
+    padding: 40px 30px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px #d9d7fa;
+    font-size: 14px;
+}
+div.api div.cards div:nth-child(1).card-active:hover{
+  background-color: white;
+  width: 280px;
+  padding: 40px 30px 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px #d9d7fa;
+  animation: move 1s;
+  font-size: 14px;
+}
+@keyframes move {
+  10% {transform: rotate(50deg);}
+}
+
+div.api div.cards div:nth-child(1).card-active img.card-logo{
+  height: 60px;
+}
+div.api div.cards div:nth-child(1).card-active h3.card-head-active{
+  padding-top: 20px;
+  font-size: 27px;
+  color: #4d1ef8;
+  font-weight: 600;
+}
+div.api div.cards div:nth-child(1).card-active p.card-body{
+  font-weight: 400;
+  margin-top: 10px;
+}
+/* card 2, card 3, card 4 */
+div.api div.cards div.card{
+  margin-left: 40px;
+  height: 300px;
+  width: 280px;
+  padding: 40px 30px 0;
+  border-radius: 10px;
+  font-size: 14px;
+}
+div.api div.cards div.card img.card-logo{
+  height: 60px;
+}
+div.api div.cards div.card h3.card-head{
+  padding-top: 20px;
+  font-size: 27px;
+  color: #000;
+  font-weight: 600;
+}
+div.api div.cards div.card p.card-body{
+  margin-top: 10px;
+  font-weight: 400;
+}
+div.api div.cards div.card:hover{
+  background-color: white;
+  margin-left: 50px;
+  width: 280px;
+  padding: 40px 30px 0;
+  cursor: pointer;
+  box-shadow: 5px 5px #d9d7fa;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  font-size: 14px;
+}
+
+div.api div.cards button.next-button{
+  height: 65px;
+  width: 65px;
+  background-color: #4d1ef8 ;
+  position: relative;
+  top: 120px;
+  border: none;
+  border-radius: 50% 50%;
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+}
+div.api div.cards button.next-button:hover{
+  height: 75px;
+  width: 75px;
+  background-color: #4d1ef8 ;
+  position: relative;
+  top: 120px;
+  border: none;
+  border-radius: 50% 50%;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: 00.5s;
+}
+
+
+
+
+
+/* SECTION 4 */
+/* BLOG HEADING */
+div.blog-heading{
+  background-color: whitesmoke;
+}
+div.blog-heading h1{
+  padding-left: 80px;
+  font-size: 52px;
+  font-family: "Poppins","Pacifico";
+  font-weight: 800;
+  text-shadow: black;
+  line-height: 65px;
+}
+
+
+
+
+
+/* SECTION 5*/
+/* BLOG CARDS */
+div.blog-cards{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  height: 600px;
+  padding: 0 60px;
+}
+
+div.blog-cards div.blog-card{
+ background-color: white;
+ display: flex;
+ width: 650px;
+ box-shadow: 5px 5px 5px rgb(197, 194, 194);
+ border-radius: 20% 0 0 0;
+}
+div.blog-cards div.blog-card div.blog-image img{
+  float: left;
+  height: 400px ;
+  width: 300px;
+}
+
+div.blog-cards div.blog-card div.blog-content{
+    float: left;
+    margin-left: 70px;
+    height: 300px;
+    width: 300px;
+}
+div.blog-cards div.blog-card div.blog-content h6{
+  padding-top: 40px;
+  font-size: 15px;
+  color: #4d1ef8;
+  font-weight: 500;
+}
+
+div.blog-cards div.blog-card div.blog-content h3{
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+div.blog-cards div.blog-card div.blog-content small{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+div.blog-cards div.blog-card div.blog-bottom img{
+  position: absolute;
+  top: 410px;
+  margin-left: -300px;
+  border: 5px solid rgb(236, 234, 234) ;
+  border-radius: 50% 50%;
+  height: 70px;
+  width: 70px;
+}
+
+div.blog-cards div.blog-card div.blog-author b.blog-author{
+  position: absolute;
+  top: 410px;
+  margin-left: -220px;
+}
+
+
+
+
+/* SECTION 6 - FAQ  */
+div.faq-section{
+  background-color: rgb(229, 232, 255);
+  display: flex;
+  height: 500px;
+}
+
+
+div.faq-section div.faq-content{
+  padding-left: 70px;
+  padding-top: 70px;
+  padding-right: 200px;
+  width: 800px;
+  line-height: 25px;
+}
+div.faq-section div.faq-content h2{
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 70px;
+}
+div.faq-section div.faq-content h4:nth-child(2){
+  padding-top: 10px;
+  font-size: 15px;
+  color: rgb(32, 32, 32);
+}
+body > div.faq-section > div.faq-content > h4:nth-child(3){
+  padding-top: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  opacity: 0.8;
+}
+div.faq-section div.faq-content button{
+  background-color: #4d1ef8 ;
+  margin-top: 40px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+div.faq-section div.faq-image{
+  height: 500px;
+  width: 800px;
+} 
+div.faq-section div.faq-image img{
+  height: 100%;
+  width: 100%;
+} 
+
+
+
+/* SECTION - 7  */
+/* DOWNLOAD */
+div.download-section{
+    padding: 150px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+div.download-section div.download-content h1{
+  font-size: 37px;
+  text-shadow: 2px 2px rgb(26, 26, 26);
+}
+
+div.download-section div.download-content h1 span{
+    font-weight: 400;
+    text-shadow: 0px 0px;
+}
+
+div.download-section div.download-email form{
+  background-color: rgb(229, 232, 255);
+  padding-left: 560px;
+  padding-bottom: 45px ;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  height: 67px;
+}
+div.download-section div.download-email form input{
+  position: absolute;
+  left: 40px;
+  top: 15px;
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  border: none;
+  background-color: rgb(229, 232, 255);
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+div.download-section div.download-email form button{
+  position: relative;
+  padding: 18px 75px;
+  border: none;
+  border-radius: 50px;
+  top: 5px;
+  left: -5px;
+  background-color: #4d1ef8;
+  color: white;
+  font-size: 15px;
+
+}
+
+
+.footer-section{
+  padding: 100px 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4d1ef8;
+  position: relative;
+}
+
+.footer-left{
+  width: 35%;
+}
+.footer-left ul.list {
+  color: whitesmoke;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  position: relative;
+  top: 20px;
+  
+}
+.footer-left ul.list li.list-items::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  height: 1px;
+  width: 22px;
+  background: #fff;
+  transform: rotate(90deg);
+}
+
+.footer-right{
+  width: 15%;
+}
+.footer-right .footer-right-div{
+  position: relative;
+  left: 20px;
+}
+.footer-right .footer-right-div .footer-logos{
+  margin: 0 8px;
+}
+.footer-right ul.logos-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.footer-right ul.logos-list li.list-items{
+  color: whitesmoke;
+}
+
+#llist1::before{
+  display: none;
+}
+#llist2::before{
+  display: none;
+}
+#llist3::before{
+  left: 220px;
+  top: 10px;
+}
+#llist4::before{
+  left: 300px;
+  top: 10px;
+}
+#llist5::before{
+  left: 400px;
+  top: 10px;
+}
+
+.logos-list #rlist1::after{
+  content: '';
+  position: absolute;
+  right: 210px;
+  top: 160px;
+  height: 1px;
+  width: 18px;
+  background: #fff;
+  transform: rotate(90deg);
+}
+.logos-list #rlist2::after{
+  content: '';
+  position: absolute;
+  right: 100px;
+  top: 160px;
+  height: 1px;
+  width: 18px;
+  background: #fff;
+  transform: rotate(90deg);
+}
+
+
+
